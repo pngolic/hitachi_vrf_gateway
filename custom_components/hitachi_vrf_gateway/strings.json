@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Hitachi VRF Gateway",
+        "description": "Enter your gateway connection details.",
+        "data": {
+          "name": "Gateway name",
+          "host": "IP address or hostname",
+          "username": "Username",
+          "password": "Password",
+          "verify_ssl": "Verify SSL certificate",
+          "devices": "Device IDs (comma separated, e.g. 0,1,2)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to gateway. Check IP, username and password."
+    },
+    "abort": {
+      "already_configured": "This gateway is already configured."
+    }
+  }
+}
